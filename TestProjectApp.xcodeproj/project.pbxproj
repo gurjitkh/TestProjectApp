@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2CF841223D5225E00D7920C /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF841123D5225E00D7920C /* SuperHero.swift */; };
+		E2CF841523D625EB00D7920C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF841423D625EB00D7920C /* Model.swift */; };
 		E2FEBFEF23D4084400F19E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEBFEE23D4084400F19E34 /* AppDelegate.swift */; };
 		E2FEBFF123D4084400F19E34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEBFF023D4084400F19E34 /* SceneDelegate.swift */; };
 		E2FEBFF323D4084400F19E34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEBFF223D4084400F19E34 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		E2FEBFFB23D4084600F19E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FEBFF923D4084600F19E34 /* LaunchScreen.storyboard */; };
 		E2FEC00623D4084700F19E34 /* TestProjectAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEC00523D4084700F19E34 /* TestProjectAppTests.swift */; };
 		E2FEC01123D4084700F19E34 /* TestProjectAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEC01023D4084700F19E34 /* TestProjectAppUITests.swift */; };
+		E2FEC02123D4136800F19E34 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEC02023D4136800F19E34 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2CF841123D5225E00D7920C /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		E2CF841423D625EB00D7920C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E2FEBFEB23D4084400F19E34 /* TestProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FEBFEE23D4084400F19E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FEBFF023D4084400F19E34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		E2FEC00C23D4084700F19E34 /* TestProjectAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FEC01023D4084700F19E34 /* TestProjectAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectAppUITests.swift; sourceTree = "<group>"; };
 		E2FEC01223D4084700F19E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FEC02023D4136800F19E34 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				E2FEBFF723D4084600F19E34 /* Assets.xcassets */,
 				E2FEBFF923D4084600F19E34 /* LaunchScreen.storyboard */,
 				E2FEBFFC23D4084600F19E34 /* Info.plist */,
+				E2FEC02023D4136800F19E34 /* DetailViewController.swift */,
+				E2CF841123D5225E00D7920C /* SuperHero.swift */,
+				E2CF841423D625EB00D7920C /* Model.swift */,
 			);
 			path = TestProjectApp;
 			sourceTree = "<group>";
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CF841223D5225E00D7920C /* SuperHero.swift in Sources */,
 				E2FEBFF323D4084400F19E34 /* ViewController.swift in Sources */,
 				E2FEBFEF23D4084400F19E34 /* AppDelegate.swift in Sources */,
+				E2CF841523D625EB00D7920C /* Model.swift in Sources */,
 				E2FEBFF123D4084400F19E34 /* SceneDelegate.swift in Sources */,
+				E2FEC02123D4136800F19E34 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
